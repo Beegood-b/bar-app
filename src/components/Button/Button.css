@@ -1,0 +1,30 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3rem 3rem;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 65px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  outline: none;
+}
+
+.btn-main svg {
+  font-size: 20px;
+}
+
+.btn-main:hover {
+  background-color: rgba(149, 124, 79, 0.6745098039);
+  transition: all ease 0.5s;
+}
